@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Style Sheet  -->
+    <link rel="stylesheet" href="Assets/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    
+</head>
+<body class="bg-secondary">
+<header class="text-center text-white display-1">
+    Work Day Scheduler
+</header>
+<br>
+<h2 class="text-center text-white" id="date-time"></h2>
+<hr class="bg-dark 5px">
+<div class="container"></div>
+
+
+
+<div class="container p-4 text-light border-secondary" id="scheduling">
+    <div class="row" id="time-slot">
+        <div class="col-2 bg-warning  text-center pt-3">
+            <br>
+            9AM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success  p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            10AM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            11AM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            12PM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            1PM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            2PM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary" id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            3PM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hidden" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            4PM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+
+    <div class="row border-top border-secondary " id="time-slot">
+        <div class="col-2 bg-warning text-center pt-3">
+            <br>
+            5PM
+        </div>
+        <div class="col-8 bg-info p-4 text-center " id="event-input">
+            <textarea id='type-here' name="hide" style="display: none;" cols="55" rows="2"></textarea>
+        </div>
+        <div class="col-2 bg-success p-4">
+            <span class="btn text-white" id="set-event">Set event</span>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Moment.js file -->
+    <script src='web/lib/moment/moment.min.js'></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Custom code -->
+    <script>
+        // Setting variables 
+        var dateStamp = $('#date-time');
+        var eventInput = $('#event-input');
+        var setEvent = $('#set-event');
+        var typeHere = $('#type-here');
+
+        
+        // Current date and Time
+        let timeDate = moment().format('MMMM Do, YYYY');
+
+        // Displaying date and time under title
+        dateStamp.text(timeDate)
+
+
+
+        // Event input 
+
+        document.getElementById('event-input').addEventListener('click', function(){
+            document.getElementById('type-here').addEventListener('change', function(){
+                document.getElementById('type-here').style.display = 'block'
+            })
+        });
+
+
+
+        
+    </script>
+</body>
+</html>
